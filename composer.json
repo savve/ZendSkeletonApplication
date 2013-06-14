@@ -7,8 +7,27 @@
         "zf2"
     ],
     "homepage": "http://framework.zend.com/",
+	"minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": ">2.2.0rc1"
-    }
+        "zendframework/zendframework": "dev-master@dev",
+        "doctrine/doctrine-orm-module": "dev-master@dev",
+		"doctrine/data-fixtures": "dev-master@dev",
+		"doctrine/migrations": "dev-master@dev",
+        "zendframework/zendpdf": "dev-master@dev",
+        "zendframework/zendgdata": "dev-master@dev",
+        "zendframework/zendsearch": "dev-master@dev",
+		"zendframework/zendservice-recaptcha": "dev-master@dev",
+		"zendframework/zend-developer-tools":"dev-master@dev",
+		"bjyoungblood/bjy-profiler":"dev-master@dev",
+        "zendframework/zftool": "dev-master@dev",
+        "firephp/firephp-core": "dev-master@dev",
+        "neilime/zf2-tree-layout-stack": "dev-master@dev"
+    },
+    "repositories": [
+    	{
+    		"type" : "vcs",
+    		"url" : "git://github.com/zendframework/ZendSearch.git"
+    	}
+    ]
 }
